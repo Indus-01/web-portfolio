@@ -1,0 +1,269 @@
+.logo{
+    width: 50%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links a{
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    /* Buttons / Big */
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 550;
+    /* font-size: 20px; */
+    /* identical to box height, or 130% */
+
+    color: #666666;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    position: absolute;
+    top: -2%;
+    margin: -0.5%;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content .greeting{
+    font-family: Arial;
+    font-weight: 800;
+    width: 15.5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #42446E;
+}
+
+.content span{
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.tech{
+    font-family: Arial;
+    font-weight: 800;
+    width: 15.5%;
+    margin-top: 10%;
+    color: #42446E;
+}
+
+p{
+    color: #666666;
+    font-family: Arial;
+    font-weight: 550;
+}
+
+.tech-image{
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+.project{
+    font-family: Arial;
+    font-weight: 800;
+    width: 15.5%;
+    margin-top: 10%;
+    color: #42446E;
+}
+
+.projects{
+    margin-bottom: 50px;
+}
+
+.about p{
+    width: 50%;
+    line-height: 25px;
+}
+
+.work-experience-title{
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 10%;
+    color: #42446E;
+    margin-left: 2.5%;
+}
+
+.exp-1{
+    color: #666666;
+    font-family: Arial;
+    font-weight: 450;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.exp-1-p{
+    font-size: 25px;
+    margin-left: 25px;
+    opacity: 80%;
+    font-weight: 400;
+}
+
+hr{
+    color: #666666;
+    opacity: 60%;
+}
+
+.stars{
+    margin-left: 25px;
+}
+
+.fa-star{
+    font-size: 25px;
+    color: #52d470;
+}
+
+.component{
+    margin-left: 30px;
+}
+
+.rounded{
+    background: #D7FFE0;
+    color: #018C0F;
+    font-weight: 800;
+    border-radius: 500000px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+}
+
+.projects-title{
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 45px;
+    color: #42446E;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-1{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 373px;
+    height: 567px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card h4{
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 25px;
+    color: #42446E;
+    text-align: center;
+}
+
+.sub-footer-title{
+    font-family: Arial;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500%;
+    font-size: 48x;
+    line-height: 26px;
+    color: #42446E;
+}
+
+#big{
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    background-size: 90%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+
+.icon{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.photo{
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 20%;
+}
+
+.image-card{
+    width: 373px;
+    height: 225px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.dark{
+    color: #1f1f1f;
+}
+
+.link-td{
+    font-family: Arial;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.link-td:hover{
+    font-family: Arial;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: underline;
+}
